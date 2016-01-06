@@ -143,6 +143,20 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		D727BE711C3D0C6500EDC2E6 /* LPDownLoadManager */ = {
+			isa = PBXGroup;
+			children = (
+				D78080B31C3227E500ABCC1B /* LPDownLoadManager.h */,
+				D78080B41C3227E500ABCC1B /* LPDownLoadManager.m */,
+				D78080B61C32366A00ABCC1B /* LPDownLoadTask.h */,
+				D78080B71C32366A00ABCC1B /* LPDownLoadTask.m */,
+				D76630981C33BBB100227239 /* LPDownLoadModel.h */,
+				D76630991C33BBB100227239 /* LPDownLoadModel.m */,
+			);
+			name = LPDownLoadManager;
+			path = AFNetWorkResumeDownloadDemo;
+			sourceTree = "<group>";
+		};
 		D76630751C33BB6700227239 /* MJExtension */ = {
 			isa = PBXGroup;
 			children = (
@@ -177,6 +191,7 @@
 			isa = PBXGroup;
 			children = (
 				D76630751C33BB6700227239 /* MJExtension */,
+				D727BE711C3D0C6500EDC2E6 /* LPDownLoadManager */,
 				D7F5C1E91C2904340073CABD /* AFNetWorkResumeDownloadDemo */,
 				D7F5C2031C2904340073CABD /* AFNetWorkResumeDownloadDemoTests */,
 				D7F5C20E1C2904340073CABD /* AFNetWorkResumeDownloadDemoUITests */,
@@ -203,12 +218,6 @@
 				D7F5C1EE1C2904340073CABD /* AppDelegate.m */,
 				D7F5C1F01C2904340073CABD /* ViewController.h */,
 				D7F5C1F11C2904340073CABD /* ViewController.m */,
-				D78080B31C3227E500ABCC1B /* LPDownLoadManager.h */,
-				D78080B41C3227E500ABCC1B /* LPDownLoadManager.m */,
-				D78080B61C32366A00ABCC1B /* LPDownLoadTask.h */,
-				D78080B71C32366A00ABCC1B /* LPDownLoadTask.m */,
-				D76630981C33BBB100227239 /* LPDownLoadModel.h */,
-				D76630991C33BBB100227239 /* LPDownLoadModel.m */,
 				D7F5C1F31C2904340073CABD /* Main.storyboard */,
 				D7F5C1F61C2904340073CABD /* Assets.xcassets */,
 				D7F5C1F81C2904340073CABD /* LaunchScreen.storyboard */,
