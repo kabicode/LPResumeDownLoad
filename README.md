@@ -1,7 +1,8 @@
 # LPResumeDownLoad
   一.支持
   
-    基于AFNetWorking和MJExtension
+    基于AFNetWorking3.0
+    MJExtension
 
   二.功能
   
