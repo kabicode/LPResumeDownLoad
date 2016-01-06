@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VariablesViewState
+   version = "1.0">
+   <ContextStates>
+      <ContextState
+         contextName = "__39-[ViewController initDownLoadOperation]_block_invoke29:ViewController.m">
+      </ContextState>
+      <ContextState
+         contextName = "__77-[ViewController downLoadTaskWithURL:progress:destination:completionHandler:]_block_invoke:ViewController.m">
+      </ContextState>
+      <ContextState
+         contextName = "-[ViewController isSuspending]:ViewController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "self.downloadTask.state">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[ViewController isDownloading]:ViewController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "self.downloadTask.state">
+            </PersistentString>
+            <PersistentString
+               value = "[self isDownloading]">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+   </ContextStates>
+</VariablesViewState>
