@@ -49,7 +49,8 @@ typedef void (^LPDownLoadCompletion)(NSURLResponse *response, NSURL *filePath, N
 //    NSString *URL = @"http://m2.pc6.com/mac/iStatMenus.dmg";
 //    NSString *URL = @"http://www.goobz.cn/uploadfile/2015/0208/20150208102315876.jpg";
     NSString *URL = @"http://baobab.cdn.wandoujia.com/1447163643457322070435.mp4";
-    self.downloadTask = [self.manager addDownLoadTaskWithURL:URL cacheName:@"hahah" progress:^(NSProgress *downloadProgress) {
+    //cacheName 为nil时  默认截取url作为文件名
+    self.downloadTask = [self.manager addDownLoadTaskWithURL:URL cacheName:@"hot.mp4" progress:^(NSProgress *downloadProgress) {
 //        dispatch_async(dispatch_get_main_queue(), ^{
             __strong __typeof__(weakSelf) strongSelf = weakSelf;
             CGFloat progress = downloadProgress.completedUnitCount*1.0/downloadProgress.totalUnitCount*1.0;
@@ -66,6 +67,7 @@ typedef void (^LPDownLoadCompletion)(NSURLResponse *response, NSURL *filePath, N
             NSLog(@"%@", error);
         }
         NSLog(@"completion!!!!!!!!!!!!!!!!!!!!!!!!!!!");
+        NSLog(@"path = %@", NSHomeDirectory());
     }];
     
 }
